@@ -1,0 +1,169 @@
+.container {
+    min-height: 120px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0 0;
+}
+
+h3 {
+    margin: 0 0 0 0;
+        word-wrap: break-word;
+
+}
+
+.title {
+    border-bottom: 1px solid #224DDA;
+    display: grid;
+    justify-content: center;
+}
+
+.addAList {
+    width: 230px;
+    height: 180px;
+    border-radius: 5px;
+    margin: 30px 0 10px 0;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background: rgb(14, 14, 16);
+    background: -moz-linear-gradient(69deg, rgba(14, 14, 16, 1) 0%, rgba(39, 40, 58, 1) 67%, rgba(56, 61, 101, 1) 100%);
+    background: -webkit-linear-gradient(69deg, rgba(14, 14, 16, 1) 0%, rgba(39, 40, 58, 1) 67%, rgba(56, 61, 101, 1) 100%);
+    background: linear-gradient(69deg, rgba(14, 14, 16, 1) 0%, rgba(39, 40, 58, 1) 67%, rgba(56, 61, 101, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0e0e10", endColorstr="#383d65", GradientType=1);;
+
+    border: 1px solid #224DDA;
+    -webkit-box-shadow: 4px 4px 25px 0px #224DDA;
+    -moz-box-shadow: 4px 4px 25px 0px #224DDA;
+    box-shadow: 4px 4px 25px 0px #224DDA;
+    color: #48aafa;
+    transition: .15s;
+}
+
+.addAList input {
+
+}
+
+.btn {
+    width: 150px;
+    height: 75px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+
+    background: rgb(14, 14, 16);
+    background: -moz-linear-gradient(69deg, rgba(14, 14, 16, 1) 0%, rgba(39, 40, 58, 1) 67%, rgba(56, 61, 101, 1) 100%);
+    background: -webkit-linear-gradient(69deg, rgba(14, 14, 16, 1) 0%, rgba(39, 40, 58, 1) 67%, rgba(56, 61, 101, 1) 100%);
+    background: linear-gradient(69deg, rgba(14, 14, 16, 1) 0%, rgba(39, 40, 58, 1) 67%, rgba(56, 61, 101, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0e0e10", endColorstr="#383d65", GradientType=1);
+
+    color: #a5b8d5;
+    transition: .15s;
+}
+
+.btn:hover {
+    font-size: 16px;
+    color: #48aafa;
+    border: 1px solid #224DDA;
+    -webkit-box-shadow: 4px 4px 25px 0px #224DDA;
+    -moz-box-shadow: 4px 4px 25px 0px #224DDA;
+    box-shadow: 4px 4px 25px 0px #224DDA;
+
+
+}
+
+.title {
+    border-bottom: 1px solid #224DDA;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: inherit;
+    height: 50px;
+}
+
+p {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.addAList input {
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#590d02", endColorstr="#d6a266", GradientType=1);
+    background: #201E2B;
+    color: #48aafa;
+    border: 1px solid #224DDA;
+    height: 25px;
+    border-radius: 5px;
+    outline: none;
+    transition: .3s;
+}
+
+.addAList input:active {
+    outline: 1px solid #224DDA;
+}
+
+.addAList input:focus {
+    outline: 1px solid #224DDA;
+
+    -webkit-box-shadow: 4px 4px 25px 0px #224DDA;
+    -moz-box-shadow: 4px 4px 25px 0px #224DDA;
+    box-shadow: 4px 4px 25px 0px #224DDA;
+}
+
+.addAList input:visited {
+    background: rgb(14, 14, 16);
+    background: -moz-linear-gradient(69deg, rgba(14, 14, 16, 1) 0%, rgba(39, 40, 58, 1) 67%, rgba(56, 61, 101, 1) 100%);
+    background: -webkit-linear-gradient(69deg, rgba(14, 14, 16, 1) 0%, rgba(39, 40, 58, 1) 67%, rgba(56, 61, 101, 1) 100%);
+    background: linear-gradient(69deg, rgba(14, 14, 16, 1) 0%, rgba(39, 40, 58, 1) 67%, rgba(56, 61, 101, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0e0e10", endColorstr="#383d65", GradientType=1);;
+}
+
+.buttons button {
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.cancel {
+    background: inherit;
+    border: none;
+    color: #48aafa;
+}
+
+.cancel:hover {
+    color: #914649;
+
+}
+
+.create {
+    border: none;
+    background: #201E2B;
+    color: #48aafa;
+}
+
+.create:hover {
+    background: #48aafa;
+    color: #224DDA;
+
+    -webkit-box-shadow: 4px 4px 25px 0px #224DDA;
+    -moz-box-shadow: 4px 4px 25px 0px #224DDA;
+    box-shadow: 4px 4px 25px 0px #224DDA;
+}
+
+.create:disabled {
+    border: none;
+    background: #201E2B;
+    color: #4e7b9f;
+    cursor: default;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}

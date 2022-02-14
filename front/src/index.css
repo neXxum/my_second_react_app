@@ -1,0 +1,37 @@
+html {
+    background: rgb(17, 13, 36);
+    background: -moz-linear-gradient(69deg, rgba(17, 13, 36, 1) 0%, rgba(49, 49, 87, 1) 67%, rgba(72, 74, 125, 1) 100%) fixed;
+    background: -webkit-linear-gradient(69deg, rgba(17, 13, 36, 1) 0%, rgba(49, 49, 87, 1) 67%, rgba(72, 74, 125, 1) 100%) fixed;
+    background: linear-gradient(69deg, rgba(17, 13, 36, 1) 0%, rgba(49, 49, 87, 1) 67%, rgba(72, 74, 125, 1) 100%) fixed;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#110d24", endColorstr="#484a7d", GradientType=1);
+    color: wheat;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html body {
+    width: 100%;
+    height: 100%;
+}
+
+html #root {
+    width: inherit;
+    height: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,35 @@
+.createButton {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 230px;
+    height: 75px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+
+    background: rgb(14, 14, 16);
+    background: -moz-linear-gradient(69deg, rgba(14, 14, 16, 1) 0%, rgba(39, 40, 58, 1) 67%, rgba(56, 61, 101, 1) 100%);
+    background: -webkit-linear-gradient(69deg, rgba(14, 14, 16, 1) 0%, rgba(39, 40, 58, 1) 67%, rgba(56, 61, 101, 1) 100%);
+    background: linear-gradient(69deg, rgba(14, 14, 16, 1) 0%, rgba(39, 40, 58, 1) 67%, rgba(56, 61, 101, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0e0e10", endColorstr="#383d65", GradientType=1);
+
+    color: #a5b8d5;
+    transition: .15s;
+}
+
+.btn:hover {
+    font-size: 16px;
+    color: #48aafa;
+    border: 1px solid #224DDA;
+    -webkit-box-shadow: 4px 4px 25px 0px #224DDA;
+    -moz-box-shadow: 4px 4px 25px 0px #224DDA;
+    box-shadow: 4px 4px 25px 0px #224DDA;
+
+
+}

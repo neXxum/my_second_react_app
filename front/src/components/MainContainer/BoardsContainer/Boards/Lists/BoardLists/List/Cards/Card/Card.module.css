@@ -1,0 +1,55 @@
+.container {
+    display: grid;
+    justify-content: center;
+    word-wrap: break-word;
+}
+
+.container button {
+    width: 200px;
+    border: none;
+    min-height: 25px;
+    border-bottom: 1px solid #201E2B;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 0 0 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.container button p {
+    max-width: 150px;
+    text-align: center;
+}
+
+.done {
+    color: #48EEFA;
+    background: #201E2B;
+    border-radius: 5px;
+
+
+    -webkit-box-shadow: 4px 4px 25px 0px #48EEFA;
+    -moz-box-shadow: 4px 4px 25px 0px #48EEFA;
+    box-shadow: 4px 4px 25px 0px #48EEFA;
+}
+
+.done .card {
+    text-decoration: line-through;
+}
+
+.notDone {
+
+    background: inherit;
+}
+
+.false {
+    color: transparent;
+    width: 38px;
+}
+
+.true {
+    color: #48EEFA;
+    width: 38px;
+}

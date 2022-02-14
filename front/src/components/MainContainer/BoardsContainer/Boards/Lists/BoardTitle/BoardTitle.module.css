@@ -1,0 +1,52 @@
+.title {
+    height: 160px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #48aafa;
+}
+
+.title h1 {
+    font-size: 35px;
+    margin: 0;
+    text-align: center;
+    margin: 20px 0 0 0;
+    color: #48aafa;
+}
+
+.title .back {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 145px;
+    height: 35px;
+    margin: 0 0 0 0;
+    background: inherit;
+    transition: .12s;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 0 0 15px 0;
+}
+
+.back {
+    text-decoration: none;
+
+
+    color: #48aafa;
+    border: none;
+    background: #201E2B;
+    color: #48aafa;
+}
+
+.back:hover {
+    background: #48aafa;
+    color: #224DDA;
+
+    -webkit-box-shadow: 4px 4px 25px 0px #224DDA;
+    -moz-box-shadow: 4px 4px 25px 0px #224DDA;
+    box-shadow: 4px 4px 25px 0px #224DDA;
+}
+
+
+

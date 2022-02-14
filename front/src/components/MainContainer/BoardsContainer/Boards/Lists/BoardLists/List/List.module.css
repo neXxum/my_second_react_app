@@ -1,0 +1,79 @@
+.container {
+    width: 230px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+
+    margin: 35px 0 0 0;
+
+    text-align: center;
+    text-decoration: none;
+
+    background: rgb(62, 74, 97);
+    background: -moz-linear-gradient(69deg, rgba(62, 74, 97, 1) 0%, rgba(197, 216, 230, 1) 67%, rgba(237, 235, 246, 1) 100%);
+    background: -webkit-linear-gradient(69deg, rgba(62, 74, 97, 1) 0%, rgba(197, 216, 230, 1) 67%, rgba(237, 235, 246, 1) 100%);
+    background: linear-gradient(69deg, rgba(62, 74, 97, 1) 0%, rgba(197, 216, 230, 1) 67%, rgba(237, 235, 246, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3e4a61", endColorstr="#edebf6", GradientType=1);
+
+    color: black;
+
+
+    transition: .15s;
+}
+
+.listTitle {
+
+    min-height: 35px;
+    font-size: 1.17em;
+    border-bottom: 1px solid black;
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    word-wrap: break-word;
+}
+
+.listTitle h3 {
+    word-wrap: break-word;
+    max-width: 200px;
+}
+
+.listTitle button {
+    background: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.listTitle button:hover {
+    color: #913336;
+}
+
+.listContent {
+
+}
+
+.listContent input {
+    margin: 10px 0 5px 0;
+    background: #48EEFA;
+    color: black;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 200px;
+    height: 25px;
+}
+
+.listContent input:active {
+    -webkit-box-shadow: 4px 4px 25px 0px #48EEFA;
+    -moz-box-shadow: 4px 4px 25px 0px #48EEFA;
+    box-shadow: 4px 4px 25px 0px #48EEFA;
+}
+
+.listContent input:focus {
+    -webkit-box-shadow: 4px 4px 25px 0px #48EEFA;
+    -moz-box-shadow: 4px 4px 25px 0px #48EEFA;
+    box-shadow: 4px 4px 25px 0px #48EEFA;
+}
+
+.footer {
+    height: 20px;
+}

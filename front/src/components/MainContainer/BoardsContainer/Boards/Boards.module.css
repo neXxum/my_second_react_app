@@ -1,0 +1,56 @@
+.board {
+    display: grid;
+    width: 230px;
+    grid-template-columns: 6fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.board button {
+    position: absolute;
+    margin: 0 0 50px 205px;
+    background: inherit;
+    border: none;
+    outline: none;
+}
+
+.board button:hover {
+    color: #913336;
+    cursor: pointer;
+}
+
+.navLink {
+    width: 230px;
+    height: 75px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    background: rgb(62, 74, 97);
+    background: -moz-linear-gradient(69deg, rgba(62, 74, 97, 1) 0%, rgba(197, 216, 230, 1) 67%, rgba(237, 235, 246, 1) 100%);
+    background: -webkit-linear-gradient(69deg, rgba(62, 74, 97, 1) 0%, rgba(197, 216, 230, 1) 67%, rgba(237, 235, 246, 1) 100%);
+    background: linear-gradient(69deg, rgba(62, 74, 97, 1) 0%, rgba(197, 216, 230, 1) 67%, rgba(237, 235, 246, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3e4a61", endColorstr="#edebf6", GradientType=1);
+
+    color: black;
+
+    font-weight: bold;
+    transition: .15s;
+}
+
+.navLink:hover {
+    color: #48EEFA;
+    font-size: 16px;
+    border: 1px solid #48EEFA;
+    -webkit-box-shadow: 4px 4px 25px 0px #48EEFA;
+    -moz-box-shadow: 4px 4px 25px 0px #48EEFA;
+    box-shadow: 4px 4px 25px 0px #48EEFA;
+
+
+}
